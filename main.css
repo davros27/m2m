@@ -11,7 +11,7 @@ a {
 h3 {
     padding:0;
     margin:0;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
 }
 
 footer {
@@ -277,6 +277,9 @@ article {
     width:50%;
     margin-left: 5%;
     height:inherit;
+    vertical-align: top;
+    text-align: left;
+    
 }
 
 #advertexample {
@@ -289,5 +292,7 @@ article {
 
 #advertexample img {
     width:100%;
+    vertical-align: middle;
+    margin-bottom: 2em;
 }
 
