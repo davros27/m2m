@@ -74,6 +74,11 @@ article {
     
 }
 
+.tel {
+    font-weight: 550;
+    color: blue;
+}
+
 /*HOME*/
 
 #mainhome {
@@ -161,25 +166,33 @@ article {
 }
 
 #staffwrap {
+    position: relative;
     height: 100%;
-    margin-top: 1em;
-    display: inline-block;
+    font-size: 0.9em;
+    display: table-row;
     width:100%;
 }
 
-#staff_image {
-    height: 100%;
-    width:30%;
-    display: inline-block;
-    
+#gap {
+    position: relative;
+    height:1em;
 }
 
-#staff_text {
+#staff_image {
+    position: inherit;
+    height: auto;
+    width:20%;
+    display: table-cell;
+}
 
+
+
+#staff_text {
+    position: relative;
     text-align: left;
     padding-left: 2%;
     width:60%;
-    display: inline-block;
+    display: table-cell;
     background-color: rgba(87,87,89,0.1);
     height: 100%;
     vertical-align: top;
@@ -199,28 +212,39 @@ article {
 }
 
 #featuredmag {
+    position:relative;
     width: 100%;
-    display: inline-block;
+    display: inline;
+    
 }
 
 #magimage {
+    position:inherit;
     margin-top:1em;
     width:35%;
     margin-left: 1em;
     display: inline-block;
     text-align: left;
+    
 }
 
 #maginfo {
-    margin-left: 3%;
+    position:relative;
+    padding: 1em;
     margin-top: 1em;
-    width:55%;
+    width:35%;
     display: inline-block;
-    text-align: left;
+    text-align:left;
     vertical-align: top;
     background-color: rgba(87,87,89,0.1);
-    height:inherit;
-    
+    border-radius: 1em;
+    margin-left: 1em;
+}
+
+#maginfo h2 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 #covers {
