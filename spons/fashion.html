@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Miss to Mrs Magazine</title>
+        <meta name="description" content="Miss to Mrs Magazine">
+        <link rel="stylesheet" href="../main.css">
+    </head>
+    <body>
+        
+        <div id="wrapper">
+        
+            <header>
+                <a href="../index.html"><img src="../images/misstomrs_logo_lge.jpg"/></a>
+            </header>
+        
+            <nav>
+                <ul>
+                    <li><a href="../magazines.html">Magazines</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a style="border-bottom:solid;" href="../sponsored.html">Recommended</a></li>
+                    <li><a href="../advertise.html">Advertise</a></li>
+                    <li style="padding-right:0em;"><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div id="mainsponsored">
+                <h2>Recommended Companies</h2>
+                <p>Use the filter to select category: 
+                    <select id="sponsfilter">
+                        <option value="../sponsored.html">All</option>
+                        <option value="plan.html">Planning</option>
+                        <option value="food.html">Food</option>
+                        <option value="fashion.html">Fashion</option>
+                        <option value="music.html">Music</option>
+                        <option value="photo.html">Photography</option>
+                        <option value="honeymoon.html">Honeymoons</option>
+                        <option value="flowers.html">Flowers</option>
+                        <option value="cars.html">Cars</option>
+                    </select>
+                    
+                    <script>
+                        document.getElementById("sponsfilter").onchange = function() {
+                            if (this.selectedIndex!==0) {
+                                window.location.href = this.value;
+                            }
+                        };
+                    </script>
+                </p>
+                
+                <a href="http://www.nologo-chic.co.uk">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/nologochiclogo.jpg">
+                    </div>
+                    <div id="sponstext">
+                        <h4>No Logo Chic</h4>
+                        Years of design experience has gone into our definitive jersey dresses.They are made in Italy using the best fabric chich contains just enough stretch for a fantastic fit.They are packable and practical, generously cut and machine washable.
+                    </div>
+                </div>
+                </a>
+                    
+                <div id="gap"></div>
+                
+                <a href="http://www.butterflycorsets.co.uk">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/butterflycorsetslogo.jpg">
+                    </div>
+                    <div id="sponstext">
+                        <h4>Butterfly Corsets</h4>
+                        Butterfly Corsets are an online boutique specialising in Corsets, Basques and Bridal Lingerie. We want every bride to look and feel beautiful on her wedding day and have a range of sizes available up to a UK22 on our website
+                    </div>
+                </div>
+                </a>
+                
+                <div id="gap"></div>
+                
+                <a href="http://www.rosinasavageboutique.com">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/savageshoeslogo.png">
+                    </div>
+                    <div id="sponstext">
+                        <h4>Rosina Savage</h4>
+                        Rosina Savage Boutique is a bespoke service to make your dream wedding shoe become reality, each pair of shoes are one of a kind and created to your specifications with 100% genuine swarovski® elements. I am very passionate about what I do, therefore you can be assured that I will make your shoes as special as your wedding day.
+                    </div>
+                </div>
+                </a>
+                    
+                <div id="gap"></div>
+                
+                <a href="https://en-gb.facebook.com/twinkletoescrystalcouture?group_id=0">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/twinkletoeslogo.jpg">
+                    </div>
+                    <div id="sponstext">
+                        <h4>Twinkle Toes</h4>
+                        Bespoke Swarovski crystal and pearl shoes. Each pair hand embellished and
+completely unique.
+                    </div>
+                </div>
+                </a>
+                    
+                <div id="gap"></div>
+                
+                 <a href="http://www.fairyflutterings.co.uk">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/fairyflutteringslogo.jpg">
+                    </div>
+                    <div id="sponstext">
+                        <h4>Fairy Flutterings</h4>
+                        Beautiful handmade fairies made specially for your wedding, your bridesmaids and flower girls. Each fairy has her own unique and enchanting personality, delicately dressed to match your colours on your big day.
+                    </div>
+                </div>
+                </a>
+                    
+                <div id="gap"></div>
+                
+                <a href="http://www.gulserensboutique.co.uk">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/gulserenslogo.png">
+                    </div>
+                    <div id="sponstext">
+                        <h4>Gulserens Boutique</h4>
+                        Gulseren’s boutique here you will find a wide selection of fabulous products.<br><br>Specialising in unique bespoke custom made Swarovski crystal footwear & many more.
+                    </div>
+                </div>
+                </a>
+                    
+                <div id="gap"></div>
+                
+            </div>
+            <footer>
+                &copy Miss to Mrs Magazine. Design by David Mothersdill & Julian Pavett
+                
+            </footer>
+        </div>
+        
+    </body>
+</html>

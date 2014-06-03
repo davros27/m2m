@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Miss to Mrs Magazine</title>
+        <meta name="description" content="Miss to Mrs Magazine">
+        <link rel="stylesheet" href="../main.css">
+    </head>
+    <body>
+        
+        <div id="wrapper">
+        
+            <header>
+                <a href="../index.html"><img src="../images/misstomrs_logo_lge.jpg"/></a>
+            </header>
+        
+            <nav>
+                <ul>
+                    <li><a href="../magazines.html">Magazines</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a style="border-bottom:solid;" href="../sponsored.html">Recommended</a></li>
+                    <li><a href="../advertise.html">Advertise</a></li>
+                    <li style="padding-right:0em;"><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div id="mainsponsored">
+                <h2>Recommended Companies</h2>
+                <p>Use the filter to select category: 
+                    <select id="sponsfilter">
+                        <option value="../sponsored.html">All</option>
+                        <option value="plan.html">Planning</option>
+                        <option value="food.html">Food</option>
+                        <option value="fashion.html">Fashion</option>
+                        <option value="music.html">Music</option>
+                        <option value="photo.html">Photography</option>
+                        <option value="honeymoon.html">Honeymoons</option>
+                        <option value="flowers.html">Flowers</option>
+                        <option value="cars.html">Cars</option>
+                    </select>
+                    
+                    <script>
+                        document.getElementById("sponsfilter").onchange = function() {
+                            if (this.selectedIndex!==0) {
+                                window.location.href = this.value;
+                            }
+                        };
+                    </script>
+                </p>
+                
+                <a href="http://www.bristolfavours.co.uk">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/bristolfavourslogo.jpg">
+                    </div>
+                    <div id="sponstext">
+                        <h4>Bristol Favours</h4>
+                        As anyone who has ever been to one knows: no wedding party is complete without the favours. That’s why we will design, create and deliver your favours, giving you one less thing to worry about!
+                    </div>
+                </div>
+                </a>
+                    
+                <div id="gap"></div>
+                
+                <a href="http://www.candycreationsuk.co.uk/">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/candycreationslogo.png">
+                    </div>
+                    <div id="sponstext">
+                        <h4>Candy Creations</h4>
+                        Candy Creations provide candy buffet tables, table centrepieces and candy gifts for any wedding theme. They also have a chocolate fountain, popcorn or candy floss machine for hire to make your celebration that little bit extra special.
+                    </div>
+                </div>
+                </a>
+                    
+                <div id="gap"></div>
+                
+                <a href="http://www.funlovingfood.co.uk/">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/funlovinfoodlogo.png">
+                    </div>
+                    <div id="sponstext">
+                        <h4>Fun Loving Food</h4>
+                        Fun Loving Food are a small catering company based in Castle Bromwich and have been providing outside catering for the past 8 years. We take on the hassle, so you don’t have to!<br><br>We offer a range of menus to suit every budget and are flexible with our menus – so if you don’t like something, tell us and we’ll change it, simple really!
+                    </div>
+                </div>
+                </a>
+                    
+                <div id="gap"></div>
+            
+            </div>
+            <footer>
+                &copy Miss to Mrs Magazine. Design by David Mothersdill & Julian Pavett
+                
+            </footer>
+        </div>
+        
+    </body>
+</html>

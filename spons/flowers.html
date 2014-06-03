@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Miss to Mrs Magazine</title>
+        <meta name="description" content="Miss to Mrs Magazine">
+        <link rel="stylesheet" href="../main.css">
+    </head>
+    <body>
+        
+        <div id="wrapper">
+        
+            <header>
+                <a href="../index.html"><img src="../images/misstomrs_logo_lge.jpg"/></a>
+            </header>
+        
+            <nav>
+                <ul>
+                    <li><a href="../magazines.html">Magazines</a></li>
+                    <li><a href="../about.html">About Us</a></li>
+                    <li><a style="border-bottom:solid;" href="../sponsored.html">Recommended</a></li>
+                    <li><a href="../advertise.html">Advertise</a></li>
+                    <li style="padding-right:0em;"><a href="../contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div id="mainsponsored">
+                <h2>Recommended Companies</h2>
+                <p>Use the filter to select category: 
+                    <select id="sponsfilter">
+                        <option value="../sponsored.html">All</option>
+                        <option value="plan.html">Planning</option>
+                        <option value="food.html">Food</option>
+                        <option value="fashion.html">Fashion</option>
+                        <option value="music.html">Music</option>
+                        <option value="photo.html">Photography</option>
+                        <option value="honeymoon.html">Honeymoons</option>
+                        <option value="flowers.html">Flowers</option>
+                        <option value="cars.html">Cars</option>
+                    </select>
+                    
+                    <script>
+                        document.getElementById("sponsfilter").onchange = function() {
+                            if (this.selectedIndex!==0) {
+                                window.location.href = this.value;
+                            }
+                        };
+                    </script>
+                </p>
+                
+                <a href="http://www.fusionflowersbirmingham.co.uk">
+                <div id="sponswrap">
+                    <div id="sponsimage">
+                        <img src="../images/sponsors/fusionflowerslogo.png">
+                    </div>
+                    <div id="sponstext">
+                        <h4>Fusion Flowers</h4>
+                        Fusion Flowers Birmingham specialises in all floral design, especially wedding designs. A free no-obligation consultation is offered to all new brides, where you are able to discuss your theme and requirements and Kris can help guide you to bring your fairytale wedding to reality.
+                    </div>
+                </div>
+                </a>
+                    
+                <div id="gap"></div>
+            </div>
+            <footer>
+                &copy Miss to Mrs Magazine. Design by David Mothersdill & Julian Pavett
+                
+            </footer>
+        </div>
+        
+    </body>
+</html>

@@ -364,6 +364,7 @@ article {
 #sponsimage img {
     vertical-align: middle;
     max-height: 150px;
+    max-width: 100%;
 }
 
 #sponstext {
