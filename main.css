@@ -347,6 +347,10 @@ article {
     vertical-align: top;
 }
 
+#sponswrap:hover {
+    background-color: rgba(87,203,255,0.1);
+}
+
 #sponsimage {
     position:relative;
     width:30%;
