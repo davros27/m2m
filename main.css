@@ -349,14 +349,17 @@ article {
 
 #sponsimage {
     position:relative;
-    width:auto;
+    width:30%;
     display: inline-block;
-    height:inherit;
     float:left;
+    height:100%;
+    vertical-align: bottom;
+    margin-top:2em;
     
 }
 #sponsimage img {
-    width:100%;
+    vertical-align: middle;
+    max-height: 150px;
 }
 
 #sponstext {
