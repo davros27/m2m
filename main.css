@@ -326,3 +326,44 @@ article {
     margin-bottom: 2em;
 }
 
+/*SPONSORED*/
+
+#mainsponsored {
+    width: inherit;
+    display: inline;
+    vertical-align: middle;
+    font-family: helvetica;
+    position: relative;
+    
+    height:auto;
+}
+
+#sponswrap {
+    position:relative;
+    text-align: left;
+    display: inline-block;
+    width:80%;
+    height:100%;
+    vertical-align: top;
+}
+
+#sponsimage {
+    position:relative;
+    width:auto;
+    display: inline-block;
+    height:inherit;
+    float:left;
+    
+}
+#sponsimage img {
+    width:100%;
+}
+
+#sponstext {
+    position:inherit;
+    display: inline-block;
+    width:60%;
+    float:right;
+    vertical-align: top;
+    
+}
