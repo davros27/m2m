@@ -50,7 +50,8 @@ ul {
 
 li {
     display:inline;
-    padding-right: 3em;
+    padding-right: 1.5em;
+    width: auto;
    
 }
 
