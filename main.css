@@ -99,6 +99,14 @@ article {
     padding-right: 4%
 }
 
+#info {
+    width: auto;
+    height:auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin:auto;
+}
+
 #twitter {
     width: 38%;
     height: auto;
@@ -112,11 +120,16 @@ article {
 #aboutbrief {
     width:50%;
     display: inline-block;
-    padding-left: 3%;
     font-size: 1.5em;
     vertical-align: middle;
-        
+    padding:3%;
     
+}
+
+#aboutbrief p {
+    width:70%;
+    vertical-align: middle;
+
 }
 
 #sponsors {
